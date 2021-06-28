@@ -39,15 +39,15 @@ pipeline {
                             
                             protocol: 'http',
 
-                            nexusUrl: '3.137.141.95:8081',
+                            nexusUrl: '52.14.3.54:8081',
 
-                            groupId: 'pom.com.mycompany.app',
+                            groupId: 'com.mycompany.app',
 
-                            version: 'pom.1.0-SNAPSHOT',
+                            version: '1.0-SNAPSHOT',
 
-                            repository: 'maven-central-repository',
+                            repository: 'youtube-demo',
 
-                            credentialsId: 'NEXUS_CRED',
+                            credentialsId: 'Nexus3-mctrak',
 
                             artifacts: [
 
