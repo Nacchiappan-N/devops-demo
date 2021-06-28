@@ -39,13 +39,13 @@ pipeline {
                             
                             protocol: 'http',
 
-                            nexusUrl: '52.14.3.54:8081',
+                            nexusUrl: '3.19.223.113:8081',
 
                             groupId: 'com.mycompany.app',
 
                             version: '1.0-SNAPSHOT',
 
-                            repository: 'youtube-demo',
+                            repository: 'youtubedemo',
 
                             credentialsId: 'Nexus3-mctrak',
 
